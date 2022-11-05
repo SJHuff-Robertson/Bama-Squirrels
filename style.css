@@ -1,0 +1,31 @@
+header {
+    grid-column: 1/4;
+}
+.main-nav {
+    display: flex;
+}
+    
+.push {
+    margin-left: auto;
+}
+  
+body {
+    font-family: 'Domine', serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+
+		max-width: 1200px;
+		margin: 2rem auto;
+}
+p {
+    color: white;
+    background-color: #3A6138;
+    border-color: black;
+    font: 16px/18px sans-serif;
+    border: 5px solid black;
+}
+main {
+    grid-column: 2/4;
+}
